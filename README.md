@@ -1,12 +1,13 @@
-# Project documents
 
-<center>
+<div align="center">
 <img src="./avatares/radioman_avatare.png" style="border-radius: 100%;" width="200px">
 <h2><b>Voice from the Past</b></h2>
 <i>Telegram-based historical game about the Soviet victory in World War II</i>
-</center>
+</div align="center">
 
 <br>
+
+## Project documents
 
 Here you can find all project documents, photos, ideas and other content accompanying my project.
 
