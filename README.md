@@ -39,7 +39,7 @@ TELEGRAM_ADMINLIST_COMMONSEP=admintgid1,admintgid2,admintgid3
 
 ## EN Description
 
-The chatbot imitates the behavior of a real person and accepts a variety of phrases as answers. The answers to the quest quests can be found [here] (https://github.com/tankalxat34/public-vk-ranepa-victory_day_quest/blob/content/const.json).
+The chatbot imitates the behavior of a real person and accepts a variety of phrases as answers. The answers to the quest quests can be found [here](https://github.com/tankalxat34/public-vk-ranepa-victory_day_quest/blob/content/const.json).
 
 As you pass, you can ask the bot for hints that will help you solve the task.
 
