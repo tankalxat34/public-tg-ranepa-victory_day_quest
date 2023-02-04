@@ -11,7 +11,10 @@ env = DotEnv()
 CONST_CONTENT_LIST = ["image", "audio", "doc"]
 
 # сохраняем список администраторов бота
-CONST_ADMINLIST = env.TELEGRAM_ADMINLIST_COMMONSEP.split(",")
+try:
+    CONST_ADMINLIST = list(map(str, env.TELEGRAM_ADMINLIST_COMMONSEP.split(",")))
+except AttributeError:
+    CONST_ADMINLIST = [str(env.TELEGRAM_YOUR_ID)]
 
 # название файла с константами для бота
 CONST_FILENAME = "const.json"
