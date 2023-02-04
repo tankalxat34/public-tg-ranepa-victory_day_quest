@@ -167,20 +167,3 @@ class File:
         with open(path_to_save + self.response["name"], 'wb') as f:
             f.write(requests.get(self.response["download_url"]).content)
         return True
-
-
-if __name__ == "__main__":
-    import json
-
-    userGitHub = User(
-        token="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",
-        username="tankalxat34"
-    )
-
-    # fileMp3 = File(userGitHub, repository="ranepa-quest-victoryday", branch="content", path="Файлы/документ.docx")
-    # fileMp3 = File(userGitHub, repository="ranepa-quest-victoryday", branch="content", path="Аудио/audio.mp3")
-    fileMp3 = File(userGitHub, repository="ranepa-quest-victoryday", branch="main", path="main.py")
-
-    print(fileMp3.get())
-    print((fileMp3.get().decode("utf-8")))
-    # print(fileMp3.download())
