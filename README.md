@@ -32,6 +32,7 @@ GITHUB_REPOSITORY_NAME=public-vk-ranepa-victory_day_quest
 TELEGRAM_YOUR_ID=yourtgid
 TELEGRAM_CHANNEL_ID=-youremptychannelid
 TELEGRAM_TOKEN=tgtokenforbot
+TELEGRAM_ADMINLIST_COMMONSEP=adminid1,adminid2,adminid3
 ```
 
 3. Run `main.py`

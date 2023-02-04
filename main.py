@@ -123,7 +123,7 @@ def message_admin_interface(message):
     text = message.text.lower()
     username = message.from_user.username
 
-    if str(user_id) in botlib.CONST["admin_list"]:
+    if str(user_id) in botlib.CONST_ADMINLIST:
         # получаем аргументы команды
         args = text.split()
 
@@ -160,7 +160,7 @@ def message_touser_validator(message):
     username = message.from_user.username
 
     # обнуление прогресса доступно только для тех, кто является админом бота
-    if str(user_id) in botlib.CONST["admin_list"]:
+    if str(user_id) in botlib.CONST_ADMINLIST:
         try:
             # получаем аргументы (почти как в sys.args)
             args = text.split()
@@ -183,7 +183,7 @@ def message_hint_validator(message):
     username = message.from_user.username
 
     # обнуление прогресса доступно только для тех, кто является админом бота
-    if str(user_id) in botlib.CONST["admin_list"]:
+    if str(user_id) in botlib.CONST_ADMINLIST:
         try:
             # получаем аргументы (почти как в sys.args)
             args = text.split()

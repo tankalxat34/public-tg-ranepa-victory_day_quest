@@ -10,6 +10,9 @@ env = DotEnv()
 
 CONST_CONTENT_LIST = ["image", "audio", "doc"]
 
+# сохраняем список администраторов бота
+CONST_ADMINLIST = env.TELEGRAM_ADMINLIST_COMMONSEP.split(",")
+
 # название файла с константами для бота
 CONST_FILENAME = "const.json"
 
